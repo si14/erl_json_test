@@ -4,3 +4,4 @@
 ebin/
 deps/
 .eunit/*
+results.csv
