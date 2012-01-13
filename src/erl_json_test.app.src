@@ -1,0 +1,9 @@
+{application, erl_json_test,
+ [
+  {description, "Tests for some common JSON libs for Erlang"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [kernel,
+                  stdlib]},
+  {env, []}
+ ]}.

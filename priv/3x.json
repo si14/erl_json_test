@@ -1,0 +1,94 @@
+{
+"id": 1,
+"jsonrpc": "2.0",
+"total": 3,
+"result": [
+{
+"id": 1,
+"avatar": "images/user_1.png",
+"age": -13,
+"admin": false,
+"name": "Гарри Морозов",
+"company": "Superscope",
+"phone": "+70959022026",
+"email": "garri@superscope.com",
+"registerDate": "Sat, 17 Apr 2004 15:39:42 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Станислав Тарасов",
+"phone": "+70953904492"
+},
+{
+"id": 2,
+"name": "Максим Степанов",
+"phone": "+70957029177"
+},
+{
+"id": 3,
+"name": "Тарас Алексеев",
+"phone": "+70953819708"
+}
+],
+"field": "field value"
+},
+{
+"id": 2,
+"avatar": "images/user_2.png",
+"age": -3,
+"admin": true,
+"name": "Игорь Орлов",
+"company": "OpKeycomm",
+"phone": "+70953375091",
+"email": "igor@opkeycomm.com",
+"registerDate": "Mon, 17 Oct 1988 12:39:33 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Сергей Поляков",
+"phone": "+70955249156"
+},
+{
+"id": 2,
+"name": "Карл Рябов",
+"phone": "+70952279001"
+},
+{
+"id": 3,
+"name": "Эдвард Давыдов",
+"phone": "+70950739116"
+}
+],
+"field": "field value"
+},
+{
+"id": 3,
+"avatar": "images/user_3.png",
+"age": -5,
+"admin": false,
+"name": "Павел Степанов",
+"company": "Conotomics",
+"phone": "+70950085495",
+"email": "pavel@conotomics.com",
+"registerDate": "Thu, 30 Dec 2004 13:46:53 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Донат Михайлов",
+"phone": "+70955355559"
+},
+{
+"id": 2,
+"name": "Макар Щербаков",
+"phone": "+70951399273"
+},
+{
+"id": 3,
+"name": "Филипп Литвинов",
+"phone": "+70951393035"
+}
+],
+"field": "field value"
+}
+]
+}

@@ -1,0 +1,790 @@
+{
+"id": 1,
+"jsonrpc": "2.0",
+"total": 27,
+"result": [
+{
+"id": 1,
+"avatar": "images/user_1.png",
+"age": 13,
+"admin": false,
+"name": "Виталий Юрченко",
+"company": "eEyetanic",
+"phone": "+70952701794",
+"email": "vitaliy@eeyetanic.com",
+"registerDate": "Mon, 14 May 1979 14:13:05 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Виталий Юрченко",
+"phone": "+70955944442"
+},
+{
+"id": 2,
+"name": "Денис Данилов",
+"phone": "+70959982069"
+},
+{
+"id": 3,
+"name": "Ефим Марченко",
+"phone": "+70956397491"
+}
+],
+"field": "field value"
+},
+{
+"id": 2,
+"avatar": "images/user_2.png",
+"age": 19,
+"admin": true,
+"name": "Евгений Новиков",
+"company": "Orthomedia",
+"phone": "+70956771289",
+"email": "evgeniy@orthomedia.com",
+"registerDate": "Sun, 24 Apr 2005 09:21:58 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Сергей Поляков",
+"phone": "+70953060479"
+},
+{
+"id": 2,
+"name": "Филипп Литвинов",
+"phone": "+70953874610"
+},
+{
+"id": 3,
+"name": "Владимир Смирнов",
+"phone": "+70957140357"
+}
+],
+"field": "field value"
+},
+{
+"id": 3,
+"avatar": "images/user_3.png",
+"age": 1,
+"admin": true,
+"name": "Вадим Савченко",
+"company": "Vencom",
+"phone": "+70958434839",
+"email": "vadim@vencom.com",
+"registerDate": "Tue, 11 Aug 1981 16:22:25 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Борис Левченко",
+"phone": "+70955537960"
+},
+{
+"id": 2,
+"name": "Людвиг Сергеев",
+"phone": "+70956415291"
+},
+{
+"id": 3,
+"name": "Богдан Кузнецов",
+"phone": "+70953356165"
+}
+],
+"field": "field value"
+},
+{
+"id": 4,
+"avatar": "images/user_4.png",
+"age": -7,
+"admin": false,
+"name": "Арсений Кузнецов",
+"company": "Dynarama",
+"phone": "+70958753403",
+"email": "arseniy@dynarama.com",
+"registerDate": "Thu, 16 Dec 1982 13:34:20 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Эдуард Лебедев",
+"phone": "+70956559343"
+},
+{
+"id": 2,
+"name": "Александр Иванов",
+"phone": "+70955310470"
+},
+{
+"id": 3,
+"name": "Виталий Юрченко",
+"phone": "+70952232385"
+}
+],
+"field": "field value"
+},
+{
+"id": 5,
+"avatar": "images/user_5.png",
+"age": 17,
+"admin": false,
+"name": "Денис Данилов",
+"company": "Keytheon",
+"phone": "+70954786191",
+"email": "denis@keytheon.com",
+"registerDate": "Tue, 06 Dec 1994 08:36:59 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Илья Величко",
+"phone": "+70952318478"
+},
+{
+"id": 2,
+"name": "Олег Егоров",
+"phone": "+70951713052"
+},
+{
+"id": 3,
+"name": "Петр Григорьев",
+"phone": "+70952567210"
+}
+],
+"field": "field value"
+},
+{
+"id": 6,
+"avatar": "images/user_6.png",
+"age": 22,
+"admin": true,
+"name": "Ян Богданов",
+"company": "Proline",
+"phone": "+70950749947",
+"email": "yan@proline.com",
+"registerDate": "Sat, 23 Mar 1991 07:16:30 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Артем Смирнов",
+"phone": "+70958188873"
+},
+{
+"id": 2,
+"name": "Марк Егоров",
+"phone": "+70955042488"
+},
+{
+"id": 3,
+"name": "Денис Данилов",
+"phone": "+70953628719"
+}
+],
+"field": "field value"
+},
+{
+"id": 7,
+"avatar": "images/user_7.png",
+"age": -8,
+"admin": false,
+"name": "Виталий Юрченко",
+"company": "eEyetanic",
+"phone": "+70952101141",
+"email": "vitaliy@eeyetanic.com",
+"registerDate": "Sat, 18 Apr 1970 02:33:47 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Денис Данилов",
+"phone": "+70950362588"
+},
+{
+"id": 2,
+"name": "Валерий Васильев",
+"phone": "+70954144855"
+},
+{
+"id": 3,
+"name": "Леонид Приходько",
+"phone": "+70951287572"
+}
+],
+"field": "field value"
+},
+{
+"id": 8,
+"avatar": "images/user_8.png",
+"age": 9,
+"admin": true,
+"name": "Леонтий Зайцев",
+"company": "iSkyvaco",
+"phone": "+70954198903",
+"email": "leontiy@iskyvaco.com",
+"registerDate": "Sat, 12 Oct 1974 18:03:25 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Руслан Борисов",
+"phone": "+70951654528"
+},
+{
+"id": 2,
+"name": "Эдвард Давыдов",
+"phone": "+70958939493"
+},
+{
+"id": 3,
+"name": "Казимир Макаров",
+"phone": "+70951653446"
+}
+],
+"field": "field value"
+},
+{
+"id": 9,
+"avatar": "images/user_9.png",
+"age": 45,
+"admin": true,
+"name": "Иоан Орлов",
+"company": "Inridium",
+"phone": "+70951495015",
+"email": "ioan@inridium.com",
+"registerDate": "Tue, 23 Apr 2002 16:05:23 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Ян Богданов",
+"phone": "+70955951896"
+},
+{
+"id": 2,
+"name": "Илларион Поляков",
+"phone": "+70952420357"
+},
+{
+"id": 3,
+"name": "Парамон Белов",
+"phone": "+70950547826"
+}
+],
+"field": "field value"
+},
+{
+"id": 10,
+"avatar": "images/user_10.png",
+"age": 43,
+"admin": true,
+"name": "Казимир Макаров",
+"company": "Hypervaco",
+"phone": "+70959477632",
+"email": "kazimir@hypervaco.com",
+"registerDate": "Sun, 12 Nov 1995 10:58:05 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Павел Степанов",
+"phone": "+70951083685"
+},
+{
+"id": 2,
+"name": "Мартин Козлов",
+"phone": "+70951465010"
+},
+{
+"id": 3,
+"name": "Людвиг Сергеев",
+"phone": "+70956779648"
+}
+],
+"field": "field value"
+},
+{
+"id": 11,
+"avatar": "images/user_11.png",
+"age": 60,
+"admin": true,
+"name": "Мечеслав Павлов",
+"company": "iQualcar",
+"phone": "+70959756079",
+"email": "mecheslav@iqualcar.com",
+"registerDate": "Sat, 05 Jun 2010 00:12:24 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Олег Егоров",
+"phone": "+70958733710"
+},
+{
+"id": 2,
+"name": "Григорий Васильев",
+"phone": "+70957592545"
+},
+{
+"id": 3,
+"name": "Антон Коваленко",
+"phone": "+70956343714"
+}
+],
+"field": "field value"
+},
+{
+"id": 12,
+"avatar": "images/user_12.png",
+"age": -5,
+"admin": false,
+"name": "Казимир Макаров",
+"company": "Hypervaco",
+"phone": "+70950015296",
+"email": "kazimir@hypervaco.com",
+"registerDate": "Thu, 26 May 1977 05:09:37 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Олег Егоров",
+"phone": "+70950675088"
+},
+{
+"id": 2,
+"name": "Карл Рябов",
+"phone": "+70952341815"
+},
+{
+"id": 3,
+"name": "Макар Щербаков",
+"phone": "+70952200383"
+}
+],
+"field": "field value"
+},
+{
+"id": 13,
+"avatar": "images/user_13.png",
+"age": -8,
+"admin": true,
+"name": "Давид Назаренко",
+"company": "Multitiqua",
+"phone": "+70956956081",
+"email": "david@multitiqua.com",
+"registerDate": "Tue, 09 Mar 1982 07:47:26 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Макар Щербаков",
+"phone": "+70956151550"
+},
+{
+"id": 2,
+"name": "Гавриил Мельник",
+"phone": "+70955282515"
+},
+{
+"id": 3,
+"name": "Эдвард Давыдов",
+"phone": "+70953674059"
+}
+],
+"field": "field value"
+},
+{
+"id": 14,
+"avatar": "images/user_14.png",
+"age": 17,
+"admin": false,
+"name": "Тимур Черных",
+"company": "Indisco",
+"phone": "+70959632799",
+"email": "timur@indisco.com",
+"registerDate": "Fri, 11 Mar 2005 14:19:22 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Мечеслав Павлов",
+"phone": "+70957966380"
+},
+{
+"id": 2,
+"name": "Казимир Макаров",
+"phone": "+70955161564"
+},
+{
+"id": 3,
+"name": "Валерий Васильев",
+"phone": "+70958696794"
+}
+],
+"field": "field value"
+},
+{
+"id": 15,
+"avatar": "images/user_15.png",
+"age": -7,
+"admin": true,
+"name": "Никита Яковлев",
+"company": "Infragraph",
+"phone": "+70956682712",
+"email": "nikita@infragraph.com",
+"registerDate": "Sat, 16 May 2009 10:47:19 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Аркадий Кравченко",
+"phone": "+70952754399"
+},
+{
+"id": 2,
+"name": "Илларион Поляков",
+"phone": "+70958611427"
+},
+{
+"id": 3,
+"name": "Клим Пономаренко",
+"phone": "+70956374585"
+}
+],
+"field": "field value"
+},
+{
+"id": 16,
+"avatar": "images/user_16.png",
+"age": 26,
+"admin": false,
+"name": "Эдуард Лебедев",
+"company": "Quintegrity",
+"phone": "+70953714232",
+"email": "eduard@quintegrity.com",
+"registerDate": "Tue, 27 Sep 2005 17:09:22 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Оскар Данилов",
+"phone": "+70952168590"
+},
+{
+"id": 2,
+"name": "Евгений Новиков",
+"phone": "+70957689274"
+},
+{
+"id": 3,
+"name": "Герман Морозов",
+"phone": "+70956143217"
+}
+],
+"field": "field value"
+},
+{
+"id": 17,
+"avatar": "images/user_17.png",
+"age": 37,
+"admin": true,
+"name": "Илья Величко",
+"company": "Netseco",
+"phone": "+70958233729",
+"email": "ilya@netseco.com",
+"registerDate": "Wed, 26 Oct 1994 04:27:18 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Симеон Власов",
+"phone": "+70959338487"
+},
+{
+"id": 2,
+"name": "Гордей Соколов",
+"phone": "+70953474067"
+},
+{
+"id": 3,
+"name": "Вениамин Нестеренко",
+"phone": "+70954832315"
+}
+],
+"field": "field value"
+},
+{
+"id": 18,
+"avatar": "images/user_18.png",
+"age": 12,
+"admin": false,
+"name": "Мартын Гусев",
+"company": "Conrama",
+"phone": "+70953509857",
+"email": "martyn@conrama.com",
+"registerDate": "Tue, 30 Aug 1977 05:04:34 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Эдуард Лебедев",
+"phone": "+70950324386"
+},
+{
+"id": 2,
+"name": "Мирослав Фролов",
+"phone": "+70957749666"
+},
+{
+"id": 3,
+"name": "Владимир Смирнов",
+"phone": "+70957064609"
+}
+],
+"field": "field value"
+},
+{
+"id": 19,
+"avatar": "images/user_19.png",
+"age": 11,
+"admin": false,
+"name": "Тимур Черных",
+"company": "Indisco",
+"phone": "+70956900773",
+"email": "timur@indisco.com",
+"registerDate": "Fri, 11 May 2007 19:01:05 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Иосиф Руденко",
+"phone": "+70959973545"
+},
+{
+"id": 2,
+"name": "Игорь Орлов",
+"phone": "+70958338589"
+},
+{
+"id": 3,
+"name": "Ефим Марченко",
+"phone": "+70950931215"
+}
+],
+"field": "field value"
+},
+{
+"id": 20,
+"avatar": "images/user_20.png",
+"age": 54,
+"admin": true,
+"name": "Арнольд Бойко",
+"company": "Interliant",
+"phone": "+70958983066",
+"email": "arnold@interliant.com",
+"registerDate": "Wed, 06 Oct 2010 23:59:29 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Мартын Гусев",
+"phone": "+70959079679"
+},
+{
+"id": 2,
+"name": "Владислав Бабич",
+"phone": "+70959522653"
+},
+{
+"id": 3,
+"name": "Леонтий Зайцев",
+"phone": "+70951875265"
+}
+],
+"field": "field value"
+},
+{
+"id": 21,
+"avatar": "images/user_21.png",
+"age": 40,
+"admin": true,
+"name": "Никита Яковлев",
+"company": "Infragraph",
+"phone": "+70954354678",
+"email": "nikita@infragraph.com",
+"registerDate": "Sun, 13 Aug 2006 10:24:22 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Анатолий Бондаренко",
+"phone": "+70951615294"
+},
+{
+"id": 2,
+"name": "Клим Пономаренко",
+"phone": "+70950984676"
+},
+{
+"id": 3,
+"name": "Рудольф Логинов",
+"phone": "+70953934390"
+}
+],
+"field": "field value"
+},
+{
+"id": 22,
+"avatar": "images/user_22.png",
+"age": 42,
+"admin": true,
+"name": "Анатолий Бондаренко",
+"company": "SysVenamerica",
+"phone": "+70956575233",
+"email": "anatoliy@sysvenamerica.com",
+"registerDate": "Tue, 26 Jun 2001 10:58:45 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Анатолий Бондаренко",
+"phone": "+70955242197"
+},
+{
+"id": 2,
+"name": "Владислав Бабич",
+"phone": "+70956179653"
+},
+{
+"id": 3,
+"name": "Вячеслав Захаров",
+"phone": "+70950507240"
+}
+],
+"field": "field value"
+},
+{
+"id": 23,
+"avatar": "images/user_23.png",
+"age": 5,
+"admin": false,
+"name": "Сергей Поляков",
+"company": "Robocomm",
+"phone": "+70950369438",
+"email": "sergey@robocomm.com",
+"registerDate": "Wed, 22 Dec 1971 16:30:20 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Илларион Поляков",
+"phone": "+70953190775"
+},
+{
+"id": 2,
+"name": "Валентин Шевченко",
+"phone": "+70952317134"
+},
+{
+"id": 3,
+"name": "Дмитрий Фролов",
+"phone": "+70954454093"
+}
+],
+"field": "field value"
+},
+{
+"id": 24,
+"avatar": "images/user_24.png",
+"age": 45,
+"admin": false,
+"name": "Арсений Кузнецов",
+"company": "Dynarama",
+"phone": "+70950563967",
+"email": "arseniy@dynarama.com",
+"registerDate": "Tue, 31 Aug 2004 04:13:33 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Арсений Кузнецов",
+"phone": "+70957521760"
+},
+{
+"id": 2,
+"name": "Людвиг Сергеев",
+"phone": "+70953922805"
+},
+{
+"id": 3,
+"name": "Александр Иванов",
+"phone": "+70954865856"
+}
+],
+"field": "field value"
+},
+{
+"id": 25,
+"avatar": "images/user_25.png",
+"age": 18,
+"admin": false,
+"name": "Илья Величко",
+"company": "Netseco",
+"phone": "+70951040676",
+"email": "ilya@netseco.com",
+"registerDate": "Tue, 06 Jun 1989 07:54:46 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Павел Степанов",
+"phone": "+70953134645"
+},
+{
+"id": 2,
+"name": "Иосиф Руденко",
+"phone": "+70958590613"
+},
+{
+"id": 3,
+"name": "Рубен Сорокин",
+"phone": "+70959799191"
+}
+],
+"field": "field value"
+},
+{
+"id": 26,
+"avatar": "images/user_26.png",
+"age": 9,
+"admin": true,
+"name": "Марк Егоров",
+"company": "iOptystix",
+"phone": "+70954087177",
+"email": "mark@ioptystix.com",
+"registerDate": "Tue, 25 Apr 2000 04:54:06 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Анатолий Бондаренко",
+"phone": "+70956066437"
+},
+{
+"id": 2,
+"name": "Николай Макаров",
+"phone": "+70958982321"
+},
+{
+"id": 3,
+"name": "Иван Проценко",
+"phone": "+70954958799"
+}
+],
+"field": "field value"
+},
+{
+"id": 27,
+"avatar": "images/user_27.png",
+"age": 45,
+"admin": true,
+"name": "Анатолий Бондаренко",
+"company": "SysVenamerica",
+"phone": "+70958046388",
+"email": "anatoliy@sysvenamerica.com",
+"registerDate": "Sat, 08 Feb 1986 23:34:04 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Мирон Юдин",
+"phone": "+70954033787"
+},
+{
+"id": 2,
+"name": "Евгений Новиков",
+"phone": "+70957779670"
+},
+{
+"id": 3,
+"name": "Рудольф Логинов",
+"phone": "+70955294350"
+}
+],
+"field": "field value"
+}
+]
+}

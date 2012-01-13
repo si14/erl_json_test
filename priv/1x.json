@@ -1,0 +1,36 @@
+{
+"id": 1,
+"jsonrpc": "2.0",
+"total": 1,
+"result": [
+{
+"id": 1,
+"avatar": "images/user_1.png",
+"age": 38,
+"admin": false,
+"name": "Феликс Швец",
+"company": "Genland",
+"phone": "+70955600298",
+"email": "feliks@genland.com",
+"registerDate": "Tue, 18 Aug 2009 14:09:40 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Яков Олейник",
+"phone": "+70950177368"
+},
+{
+"id": 2,
+"name": "Антон Коваленко",
+"phone": "+70958920708"
+},
+{
+"id": 3,
+"name": "Леонид Приходько",
+"phone": "+70958423612"
+}
+],
+"field": "field value"
+}
+]
+}

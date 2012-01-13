@@ -1,0 +1,268 @@
+{
+"id": 1,
+"jsonrpc": "2.0",
+"total": 9,
+"result": [
+{
+"id": 1,
+"avatar": "images/user_1.png",
+"age": 34,
+"admin": true,
+"name": "Николай Макаров",
+"company": "Robotomic",
+"phone": "+70956202367",
+"email": "nikolay@robotomic.com",
+"registerDate": "Fri, 18 Oct 1985 18:28:32 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Гордей Соколов",
+"phone": "+70959010576"
+},
+{
+"id": 2,
+"name": "Любомир Денисов",
+"phone": "+70958491053"
+},
+{
+"id": 3,
+"name": "Александр Иванов",
+"phone": "+70955376763"
+}
+],
+"field": "field value"
+},
+{
+"id": 2,
+"avatar": "images/user_2.png",
+"age": 35,
+"admin": false,
+"name": "Мартин Козлов",
+"company": "Thermotomic",
+"phone": "+70958462966",
+"email": "martin@thermotomic.com",
+"registerDate": "Tue, 23 Sep 1975 03:54:59 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Николай Макаров",
+"phone": "+70953980647"
+},
+{
+"id": 2,
+"name": "Адам Иванов",
+"phone": "+70956808517"
+},
+{
+"id": 3,
+"name": "Виталий Юрченко",
+"phone": "+70954159381"
+}
+],
+"field": "field value"
+},
+{
+"id": 3,
+"avatar": "images/user_3.png",
+"age": 32,
+"admin": false,
+"name": "Михаил Колесников",
+"company": "Turbomart",
+"phone": "+70959753922",
+"email": "mihail@turbomart.com",
+"registerDate": "Fri, 06 Dec 1996 23:33:00 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Роман Чернов",
+"phone": "+70955589291"
+},
+{
+"id": 2,
+"name": "Макар Щербаков",
+"phone": "+70958176768"
+},
+{
+"id": 3,
+"name": "Захар Новиков",
+"phone": "+70950634649"
+}
+],
+"field": "field value"
+},
+{
+"id": 4,
+"avatar": "images/user_4.png",
+"age": 8,
+"admin": true,
+"name": "Вениамин Нестеренко",
+"company": "Navivacs",
+"phone": "+70956691044",
+"email": "veniamin@navivacs.com",
+"registerDate": "Mon, 07 Aug 1989 09:02:04 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Олег Егоров",
+"phone": "+70958326040"
+},
+{
+"id": 2,
+"name": "Иннокентий Мищенко",
+"phone": "+70951670829"
+},
+{
+"id": 3,
+"name": "Оскар Данилов",
+"phone": "+70955064250"
+}
+],
+"field": "field value"
+},
+{
+"id": 5,
+"avatar": "images/user_5.png",
+"age": 47,
+"admin": true,
+"name": "Денис Данилов",
+"company": "Keytheon",
+"phone": "+70952437561",
+"email": "denis@keytheon.com",
+"registerDate": "Sun, 05 Feb 1978 10:01:39 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Николай Макаров",
+"phone": "+70957471360"
+},
+{
+"id": 2,
+"name": "Рубен Сорокин",
+"phone": "+70951720278"
+},
+{
+"id": 3,
+"name": "Марк Егоров",
+"phone": "+70958075209"
+}
+],
+"field": "field value"
+},
+{
+"id": 6,
+"avatar": "images/user_6.png",
+"age": 43,
+"admin": true,
+"name": "Казимир Макаров",
+"company": "Hypervaco",
+"phone": "+70958610348",
+"email": "kazimir@hypervaco.com",
+"registerDate": "Fri, 23 Dec 1977 21:36:38 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Захар Новиков",
+"phone": "+70950502685"
+},
+{
+"id": 2,
+"name": "Мартин Козлов",
+"phone": "+70952102798"
+},
+{
+"id": 3,
+"name": "Клемент Романов",
+"phone": "+70959200383"
+}
+],
+"field": "field value"
+},
+{
+"id": 7,
+"avatar": "images/user_7.png",
+"age": 53,
+"admin": false,
+"name": "Филипп Литвинов",
+"company": "Polytheon",
+"phone": "+70951189085",
+"email": "filipp@polytheon.com",
+"registerDate": "Mon, 16 Nov 2009 01:10:10 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Парамон Белов",
+"phone": "+70959376499"
+},
+{
+"id": 2,
+"name": "Вадим Савченко",
+"phone": "+70951105098"
+},
+{
+"id": 3,
+"name": "Мартин Козлов",
+"phone": "+70950879609"
+}
+],
+"field": "field value"
+},
+{
+"id": 8,
+"avatar": "images/user_8.png",
+"age": 46,
+"admin": false,
+"name": "Юрий Титов",
+"company": "Fibroserve",
+"phone": "+70953296995",
+"email": "yuriy@fibroserve.com",
+"registerDate": "Wed, 30 May 2001 10:12:32 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Григорий Васильев",
+"phone": "+70951030031"
+},
+{
+"id": 2,
+"name": "Арнольд Бойко",
+"phone": "+70958833718"
+},
+{
+"id": 3,
+"name": "Мартын Гусев",
+"phone": "+70955356546"
+}
+],
+"field": "field value"
+},
+{
+"id": 9,
+"avatar": "images/user_9.png",
+"age": 26,
+"admin": false,
+"name": "Игнат Волков",
+"company": "Xeicon",
+"phone": "+70959273976",
+"email": "ignat@xeicon.com",
+"registerDate": "Sat, 19 Feb 2011 18:35:15 GMT",
+"friends": [
+{
+"id": 1,
+"name": "Игорь Орлов",
+"phone": "+70959423182"
+},
+{
+"id": 2,
+"name": "Гордей Соколов",
+"phone": "+70958819247"
+},
+{
+"id": 3,
+"name": "Вячеслав Захаров",
+"phone": "+70953889406"
+}
+],
+"field": "field value"
+}
+]
+}
