@@ -43,11 +43,12 @@ bench(EncFun, DecFun, TestJSON) ->
 format_results(Results) ->
     Header = io_lib:format("\"Parser\","
                            "\"Test\","
+                           "\"TestSize\","
                            "\"ResultEnc\","
                            "\"ResultDec\"~n", []),
     Out = [Header |
-           [io_lib:format("\"~s\",\"~s (~pb)\",~p,~p~n",
-                          [Parser, Test, TestSize,
+           [io_lib:format("\"~s\",\"~s (~pb)\",~p,~p,~p~n",
+                          [Parser, Test, TestSize, TestSize,
                            round(ResultEnc / ?NUM_TESTS),
                            round(ResultDec / ?NUM_TESTS)])
             || {Parser, Test, TestSize, {ResultEnc, ResultDec}} <- Results]],
