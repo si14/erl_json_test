@@ -5,3 +5,5 @@ ebin/
 deps/
 .eunit/*
 results.csv
+.Rhistory
+plot.png
