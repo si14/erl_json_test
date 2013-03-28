@@ -22,6 +22,10 @@ start() ->
                  {Name, File}
              end
              || {Name, FileName} <- ?TESTFILES],
+    _A = [ jsonx:encode(jsonx:decode(File)) || {_, File} <- JSONs],
+    _B = [ jiffy:encode(jiffy:decode(File)) || {_, File} <- JSONs],
+    _C = [ mochijson2:encode(mochijson2:decode(File)) || {_, File} <- JSONs],
+    _D = [ jsx:term_to_json(jsx:json_to_term(File)) || {_, File} <- JSONs],
     ResultsDeep = [[begin
                         T = {ParserName, TestName, size(JSON),
                              bench(EncFun, DecFun, JSON)},
