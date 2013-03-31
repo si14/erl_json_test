@@ -3,7 +3,8 @@
 -define(RESULTS_FILE, "results.csv").
 -define(NUM_TESTS, 300).
 -define(PARSERS,
-        [{"jiffy", fun jiffy:encode/1, fun jiffy:decode/1},
+        [{"jsonx", fun jsonx:encode/1, fun jsonx:decode/1},
+         {"jiffy", fun jiffy:encode/1, fun jiffy:decode/1},
          {"mochijson2", fun mochijson2:encode/1, fun mochijson2:decode/1},
          {"jsx", fun jsx:term_to_json/1, fun jsx:json_to_term/1}]).
 -define(TESTFILES,
@@ -21,6 +22,10 @@ start() ->
                  {Name, File}
              end
              || {Name, FileName} <- ?TESTFILES],
+    _A = [ jsonx:encode(jsonx:decode(File)) || {_, File} <- JSONs],
+    _B = [ jiffy:encode(jiffy:decode(File)) || {_, File} <- JSONs],
+    _C = [ mochijson2:encode(mochijson2:decode(File)) || {_, File} <- JSONs],
+    _D = [ jsx:term_to_json(jsx:json_to_term(File)) || {_, File} <- JSONs],
     ResultsDeep = [[begin
                         T = {ParserName, TestName, size(JSON),
                              bench(EncFun, DecFun, JSON)},
