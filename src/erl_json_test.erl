@@ -4,6 +4,7 @@
 -define(NUM_TESTS, 300).
 -define(PARSERS,
         [{"jsonx", fun jsonx:encode/1, fun jsonx:decode/1},
+         {"yawsjson2", fun json2:encode/1, fun json2:decode/1},
          {"jiffy", fun jiffy:encode/1, fun jiffy:decode/1},
          {"jsonerl", fun jsonerl:encode/1, fun jsonerl:decode/1},
          {"mochijson2", fun mochijson2:encode/1, fun mochijson2:decode/1},
