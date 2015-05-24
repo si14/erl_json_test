@@ -7,3 +7,4 @@ deps/
 results.csv
 .Rhistory
 plot.png
+.rebar
