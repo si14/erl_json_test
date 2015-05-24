@@ -8,7 +8,7 @@
          {"jiffy", fun jiffy:encode/1, fun jiffy:decode/1},
          {"jsonerl", fun jsonerl:encode/1, fun jsonerl:decode/1},
          {"mochijson2", fun mochijson2:encode/1, fun mochijson2:decode/1},
-         {"jsx", fun jsx:term_to_json/1, fun jsx:json_to_term/1}]).
+         {"jsx", fun jsx:encode/1, fun jsx:decode/1}]).
 -define(TESTFILES,
         [{"1x", "1x.json"},
          {"3x", "3x.json"},
@@ -27,7 +27,7 @@ start() ->
     _A = [ jsonx:encode(jsonx:decode(File)) || {_, File} <- JSONs],
     _B = [ jiffy:encode(jiffy:decode(File)) || {_, File} <- JSONs],
     _C = [ mochijson2:encode(mochijson2:decode(File)) || {_, File} <- JSONs],
-    _D = [ jsx:term_to_json(jsx:json_to_term(File)) || {_, File} <- JSONs],
+    _D = [ jsx:encode(jsx:decode(File)) || {_, File} <- JSONs],
     ResultsDeep = [[begin
                         T = {ParserName, TestName, size(JSON),
                              bench(EncFun, DecFun, JSON)},
